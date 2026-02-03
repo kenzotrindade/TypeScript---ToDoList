@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Cible et Environnement */
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "moduleResolution": "bundler" /* Optimisé pour les outils modernes comme Vite plus tard */,
+
+    /* Rigueur (Le mode "Apprentissage Sérieux") */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitAny": true,
+
+    /* Sortie et Debug */
+    "sourceMap": true,
+    "removeComments": false,
+
+    /* Interopérabilité et Sécurité */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    /* Pour ton futur passage à React */
+    "jsx": "react-jsx"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}

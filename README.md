@@ -2,7 +2,6 @@ TaskMaster - TypeScript To-Do Application
 
 A modern, clean, and fully typed Task Management application built with TypeScript. This project focuses on DOM manipulation, state management, and data persistence using the browser's LocalStorage.
 
-(Replace this with a real screenshot later)
 🚀 Features
 
     CRUD Operations: Create, Read, Update, and Delete tasks.

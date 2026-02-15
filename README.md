@@ -1,60 +1,63 @@
-TaskMaster - TypeScript To-Do Application
+<div align="center">
 
-A modern, clean, and fully typed Task Management application built with TypeScript. This project focuses on DOM manipulation, state management, and data persistence using the browser's LocalStorage.
+# 🚀 TypeScript To-Do List
 
-🚀 Features
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Frontend](https://img.shields.io/badge/Focus-Type_Safety-blue?style=for-the-badge)
+![School](https://img.shields.io/badge/School-Coda-blue?style=for-the-badge)
 
-    CRUD Operations: Create, Read, Update, and Delete tasks.
+<p>
+  <strong>A modern, type-safe task management application.</strong><br>
+  Exploring the power of TypeScript to build reliable and scalable user interfaces.
+</p>
 
-    State Persistence: Tasks are saved in the browser's LocalStorage—your data won't disappear on refresh.
+</div>
 
-    Priority Labeling: Assign priority levels to tasks.
+---
 
-    Dynamic UI: Real-time task counter and visual feedback for completed tasks (line-through effect).
+## 📋 About The Project
 
-    Responsive Design: A sleek, dark-themed interface built with modern CSS.
+This repository hosts a **To-Do List application** developed as part of the **Coda** curriculum. While a to-do list is a classic project, this version focuses on using **TypeScript** to ensure code reliability and prevent common runtime errors through strict type checking.
 
-🛠️ Technical Stack
+The main objective was to manage a dynamic list of tasks (CRUD operations) while maintaining a clear and predictable data flow using advanced typing.
 
-    Language: TypeScript (Static Typing, Interfaces, Type Assertions)
+> **Specific Goal:** Implementing a task manager where every piece of data—from the task object to the event handlers—is strictly typed to ensure a bug-free experience.
 
-    Frontend: HTML5, CSS3 (Flexbox, CSS Variables, Animations)
+---
 
-    Storage: Browser LocalStorage API
+## ⚙️ Key Concepts Mastered
 
-    Build Tool: TSC (TypeScript Compiler)
+Transitioning from vanilla JavaScript to TypeScript in a functional app requires mastering:
 
-🧠 Concepts Mastered
+* **🛡️ Type Definitions & Interfaces:** Creating precise `interfaces` for Task objects (ID, label, completion status).
+* **🔄 State Management:** Managing the application state with type-safe arrays and update functions.
+* **⌨️ Event Handling:** Typing DOM events (like form submissions or button clicks) to ensure correct data manipulation.
+* **💾 Local Storage Integration:** Persisting data while handling the transformation between JSON strings and typed objects.
 
-This project allowed me to demonstrate and reinforce several key TypeScript and Frontend concepts:
+---
 
-    Interfaces: Used to enforce strict data structures for Task objects.
+## 🛠️ Tech Stack
 
-    DOM Manipulation: Selecting and creating elements using strict type casting (as HTMLFormElement, as HTMLInputElement).
+| Tool | Usage |
+| :--- | :--- |
+| **TypeScript** | Core language for logic and type safety. |
+| **HTML5 / CSS3** | Structure and responsive user interface. |
+| **Vite / Webpack** | Modern build tool for fast development. |
+| **Local Storage** | Browser-side data persistence. |
 
-    Event Handling: Managing user interactions through structured event listeners.
+---
 
-    Array Methods: Advanced usage of .filter() for deletions and .forEach() for UI rendering.
+## 🚀 How to Run
 
-    JSON Handling: Serializing and deserializing complex objects for storage.
-
-    Closure & Scope: Managing individual task states within dynamic loops.
-
-📦 Installation & Setup
-
-    Clone the repository
-    Bash
-
-    git clone https://github.com/your-username/taskmaster-ts.git
-
-    Install TypeScript (if not already installed)
-    Bash
-
-    npm install -g typescript
-
-    Compile the project
-    Bash
-
-    tsc index.ts --watch
-
-    Launch Open index.html in your favorite browser.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/kenzotrindade/TypeScript---ToDoList.git](https://github.com/kenzotrindade/TypeScript---ToDoList.git)
+2. Install dependencies:
+   ```bash
+   npm install
+3. Launch the development server:
+   ```bash
+   npm run dev
+4. Build for production:
+   ```bash
+   npm run build

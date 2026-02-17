@@ -4,7 +4,6 @@
 
 ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Frontend](https://img.shields.io/badge/Focus-Type_Safety-blue?style=for-the-badge)
-![School](https://img.shields.io/badge/School-Coda-blue?style=for-the-badge)
 
 <p>
   <strong>A modern, type-safe task management application.</strong><br>
@@ -51,7 +50,7 @@ Transitioning from vanilla JavaScript to TypeScript in a functional app requires
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/kenzotrindade/TypeScript---ToDoList.git](https://github.com/kenzotrindade/TypeScript---ToDoList.git)
+   git clone https://github.com/kenzotrindade/TypeScript---ToDoList.git
 2. Install dependencies:
    ```bash
    npm install
